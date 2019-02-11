@@ -1,0 +1,66 @@
+make length ( lst )
+	{
+	float count;
+	for x $ in lst:
+		{
+		count++;
+		};
+	return count;
+	};
+'adsasd sdasdasd
+
+
+ sadas'
+
+
+put 234+2-3 - 1 into a
+make merge_sort1(lst1)
+	{
+	float mid ; 
+	list lh ;
+	list rh ;
+	if length(lst)>1
+		{
+		put length(lst)//2.0 into mid;
+		put lst[:mid] into lh;
+		put lst[mid:] into rh;
+
+		merge_sort1(lh);
+		merge_sort1(rh);
+
+		float i;
+		float j;
+		float k;
+
+		until (i < length(lh)) and (j < length(rh))
+			{
+			if lh[i] < rh[j]
+				{
+				 put lh[i] into lst[k];
+				i++;
+				};
+			else
+				{
+				 put rh[j] into lst[k];
+				j++;
+				};
+			k++;
+			};
+		
+		until i < length(lh)
+			{
+			 put rh[j] into lst[k];
+			i++;
+			k++;
+			};
+		
+		until j < lenght(rh)
+			{
+			put rh[j] into lst[k];
+			j++;
+			k++;
+			};
+		};
+	print("current merge: ",(lst));
+	};
+

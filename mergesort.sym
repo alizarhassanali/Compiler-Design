@@ -1,0 +1,19 @@
+<1 ,('length', 'Identifier')> 
+<2 ,('lst', 'Identifier')> 
+<3 ,('count', 'Identifier')> 
+<4 ,('x', 'Identifier')> 
+<5 ,('234', 'integer')> 
+<6 ,('2', 'integer')> 
+<7 ,('3', 'integer')> 
+<8 ,('1', 'integer')> 
+<9 ,('merge_sort1', 'Identifier')> 
+<10 ,('lst1', 'Identifier')> 
+<11 ,('mid', 'Identifier')> 
+<12 ,('lh', 'Identifier')> 
+<13 ,('rh', 'Identifier')> 
+<14 ,('1', 'integer')> 
+<15 ,('2.0', 'float_number')> 
+<16 ,('i', 'Identifier')> 
+<17 ,('j', 'Identifier')> 
+<18 ,('k', 'Identifier')> 
+<19 ,('"current merge: "', 'String')> 
